@@ -1,14 +1,15 @@
 import './App.scss';
-import { Routes,Route, BrowserRouter } from 'react-router-dom';
-import Layout from './components/Layout';
+import { Routes,Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Routes>
         <Route path="/" element={<Layout/>}/>
+        {/* hwllo */}
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
 
