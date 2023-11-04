@@ -10,12 +10,9 @@ const Home = () => {
           Hi, <br /> I'm  
           <img src={LogoTitle} alt="Developer" />
           hreyash
-          <br />
-          Web Developer
         </h1>
-        <h2>Frontend Developer / React / CyberSecurity</h2>
-        <Link to="/contact" className="falt-button" />
-        CONTACT ME
+        <h2>Frontend Developer (Mern) / CyberSecurity / Ethical Hacking</h2>
+        <Link to="/contact" className="flat-button" >CONTACT ME</Link>
       </div>
     </div>
   )
