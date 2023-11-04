@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+
 
 @import 'animate.css';
 
@@ -15,12 +15,8 @@ $primary-color: #ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-
 input,
 textarea {
-  font-family : 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');;
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
-
-
-

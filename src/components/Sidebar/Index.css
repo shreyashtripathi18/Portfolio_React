@@ -71,16 +71,75 @@
 
 .nav-bar nav a:hover:first-child:after {
     content: "HOME";
+    font-size: 9px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    transition: all 0.3s ease-out;
 }
+
 
 .nav-bar nav a.about-link:after {
     content: "ABOUT";
+    font-size: 9px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: all 0.3s ease-out;
 }
+
+.nav-bar nav a.about-link:hover:after {
+    opacity: 1; /* Change opacity to 1 on hover */
+}
+
 
 .nav-bar nav a.contact-link:after {
     content: "CONTACT";
+    font-size: 9px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: all 0.3s ease-out;
+}
+
+.nav-bar nav a.contact-link:hover:after {
+    opacity: 1; /* Change opacity to 1 on hover */
 }
 
 .nav-bar nav a.active svg {
+    color: #ffd700;
+}
+
+ul {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+ul li a {
+    padding: 7px 0;
+    display: block;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+ul li a:hover svg {
     color: #ffd700;
 }

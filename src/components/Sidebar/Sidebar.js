@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar =() => {
     return(
@@ -16,7 +16,7 @@ const Sidebar =() => {
                 <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
             </Link>
             <nav>
-                <NavLink exact="true" activeclassname="active" to="/">
+                <NavLink exact="true" activeclassname="active" to="/home">
                     <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
                 </NavLink>
                 <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
@@ -28,8 +28,24 @@ const Sidebar =() => {
             </nav>
             <ul>
                 <li>
-                    <a href="_blank" rel='noreferrer'>
+                    <a href="https://www.linkedin.com/in/shreyash-tripathi-24bb26220/" 
+                    rel='noreferrer'
+                    target='_blank'>
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/shreyashtripathi18" 
+                    rel='noreferrer'
+                    target='_blank'>
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/heyshreyash.exe/" 
+                    rel='noreferrer'
+                    target='_blank'>
+                        <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"/>
                     </a>
                 </li>
             </ul>
