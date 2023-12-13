@@ -14,6 +14,7 @@
     "animate.css": "^4.1.1",
     "gsap": "^3.12.3",
     "gsap-trial": "^3.12.2",
+    "leaflet": "^1.9.4",
     "loaders.css": "^0.1.2",
     "pacman": "^0.15.0",
     "react": "^18.2.0",
