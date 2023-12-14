@@ -14,6 +14,10 @@ const Contact = () => {
       const timeoutId = setTimeout(() => {
         setLetterClass('text-animate-hover');
       }, 4000);
+
+      return () => {
+        clearTimeout(timeoutId);
+      };
       }, []);
 
 

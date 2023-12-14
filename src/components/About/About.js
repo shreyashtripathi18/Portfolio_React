@@ -12,6 +12,10 @@ const About = () => {
     const timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 3000);
+    
+    return () => {
+      clearTimeout(timeoutId);
+    };
     }, []);
 
 
